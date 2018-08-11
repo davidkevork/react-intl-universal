@@ -12,20 +12,23 @@ import merge from "lodash.merge";
 import isElectron from 'is-electron';
 
 const COMMON_LOCALE_DATA_URLS = {
-  en: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/en.js",
-  zh: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/zh.js",
-  fr: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/fr.js",
-  ja: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/ja.js",
-  de: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/de.js",
-  es: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/es.js",
-  ko: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/ko.js",
-  pt: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/pt.js",
-  it: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/it.js",
-  ru: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/ru.js",
-  pl: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/pl.js",
-  nl: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/nl.js",
-  sv: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/sv.js",
-  tr: "https://g.alicdn.com/react-intl-universal/locale-data/1.0.0/tr.js",
+  am: "https://raw.githubusercontent.com/davidkevork/locale-data/master/jsonp/am.js",
+  ar: "https://raw.githubusercontent.com/davidkevork/locale-data/master/jsonp/ar.js",
+  br: "https://raw.githubusercontent.com/davidkevork/locale-data/master/jsonp/br.js",
+  en: "https://raw.githubusercontent.com/davidkevork/locale-data/master/jsonp/en.js",
+  zh: "https://raw.githubusercontent.com/davidkevork/locale-data/master/jsonp/zh.js",
+  fr: "https://raw.githubusercontent.com/davidkevork/locale-data/master/jsonp/fr.js",
+  ja: "https://raw.githubusercontent.com/davidkevork/locale-data/master/jsonp/ja.js",
+  de: "https://raw.githubusercontent.com/davidkevork/locale-data/master/jsonp/de.js",
+  es: "https://raw.githubusercontent.com/davidkevork/locale-data/master/jsonp/es.js",
+  ko: "https://raw.githubusercontent.com/davidkevork/locale-data/master/jsonp/ko.js",
+  pt: "https://raw.githubusercontent.com/davidkevork/locale-data/master/jsonp/pt.js",
+  it: "https://raw.githubusercontent.com/davidkevork/locale-data/master/jsonp/it.js",
+  ru: "https://raw.githubusercontent.com/davidkevork/locale-data/master/jsonp/ru.js",
+  pl: "https://raw.githubusercontent.com/davidkevork/locale-data/master/jsonp/pl.js",
+  nl: "https://raw.githubusercontent.com/davidkevork/locale-data/master/jsonp/nl.js",
+  sv: "https://raw.githubusercontent.com/davidkevork/locale-data/master/jsonp/sv.js",
+  tr: "https://raw.githubusercontent.com/davidkevork/locale-data/master/jsonp/tr.js",
 };
 
 
